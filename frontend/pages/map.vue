@@ -23,7 +23,7 @@ onMounted(async () => {
     const config = useRuntimeConfig()
     const apiUrl = config.public.apiUrl
 
-    const response = await $fetch(`${apiUrl}/items/artifacts`)
+   const response = await $fetch(`${apiUrl}/items/arifact`)
     const data = response?.data || []
 
     data.forEach(item => {

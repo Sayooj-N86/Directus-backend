@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   css: ['leaflet/dist/leaflet.css'],
   runtimeConfig: {
     public: {
-      apiUrl: 'http://localhost:8055'
+      apiUrl: 'http://localhost:8055' // ✅ removed /api
     }
   }
 })
